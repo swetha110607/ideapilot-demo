@@ -1,0 +1,35 @@
+# Dependencies
+node_modules/
+dist/
+.cache/
+
+# Environment variables — never commit real secrets
+.env
+.env.local
+.env.*.local
+
+# Logs
+*.log
+npm-debug.log*
+pnpm-debug.log*
+
+# Editor directories
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Vite build outputs
+client/dist/
+
+# TypeScript build outputs
+server/dist/
+
+# Coverage
+coverage/
+
+.env
+node_modules/
+dist/
